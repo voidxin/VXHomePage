@@ -1,0 +1,15 @@
+PODS:
+  - VXProtocolManager (0.0.3)
+  - VXVXHomePageServiceProtocol (0.0.5)
+
+DEPENDENCIES:
+  - VXProtocolManager
+  - VXVXHomePageServiceProtocol (~> 0.0.5)
+
+SPEC CHECKSUMS:
+  VXProtocolManager: 23930025df1569999527cd61687052fd3fa5675e
+  VXVXHomePageServiceProtocol: 69bfc1263c3015b854fdb1c16b0b1be674958369
+
+PODFILE CHECKSUM: cc6cd175fe7a617d9e9d6c337154139d0878a8cc
+
+COCOAPODS: 1.2.0
