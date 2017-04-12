@@ -7,7 +7,7 @@
 //
 
 #import "VXHomePageViewController.h"
-
+#import "VXHomePageDetailViewController.h"
 @interface VXHomePageViewController ()
 
 @end
@@ -35,7 +35,17 @@
     label.center = CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5);
     [self.view addSubview:label];
     
+    label.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapges = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
+    [label addGestureRecognizer:tapges];
     
+    
+}
+
+- (void)tapAction:(UIGestureRecognizer *)ges {
+    VXHomePageDetailViewController *detailVC = [[VXHomePageDetailViewController alloc] init];
+    detailVC.title = @"detailPage";
+    [self.navigationController pushViewController:detailVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

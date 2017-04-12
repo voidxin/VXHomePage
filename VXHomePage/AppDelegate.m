@@ -16,11 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    VXHomePageViewController *homePageVC = [[VXHomePageViewController alloc] init];
+    VXHomePageViewController *homePageVC = [[VXHomePageViewController alloc] initWithHomepageViewControllerUserMessage:@"message"];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homePageVC];
     self.window = ({
         UIWindow *templeWindow = [[UIWindow alloc] init];
         templeWindow.bounds = [UIScreen mainScreen].bounds;
-        templeWindow.rootViewController = homePageVC;
+        templeWindow.rootViewController = nav;
         templeWindow;
     });
     [self.window makeKeyWindow];

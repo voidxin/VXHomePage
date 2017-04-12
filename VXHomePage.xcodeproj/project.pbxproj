@@ -15,6 +15,7 @@
 		576F081B1E9B2B340067D018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576F08191E9B2B340067D018 /* LaunchScreen.storyboard */; };
 		576F084A1E9B31B60067D018 /* VXHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F08491E9B31B60067D018 /* VXHomePageViewController.m */; };
 		576F084D1E9B34780067D018 /* VXHomePageServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F084C1E9B34780067D018 /* VXHomePageServiceProvide.m */; };
+		576F0A9F1E9E1CB80067D018 /* VXHomePageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576F0A9E1E9E1CB80067D018 /* VXHomePageDetailViewController.m */; };
 		6C6E92EAEC1A8969AFE5BE38 /* libPods-VXHomePage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE8FAF5D2B09CEFA41087D1 /* libPods-VXHomePage.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		576F08491E9B31B60067D018 /* VXHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXHomePageViewController.m; sourceTree = "<group>"; };
 		576F084B1E9B34780067D018 /* VXHomePageServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXHomePageServiceProvide.h; sourceTree = "<group>"; };
 		576F084C1E9B34780067D018 /* VXHomePageServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXHomePageServiceProvide.m; sourceTree = "<group>"; };
+		576F0A9D1E9E1CB80067D018 /* VXHomePageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXHomePageDetailViewController.h; sourceTree = "<group>"; };
+		576F0A9E1E9E1CB80067D018 /* VXHomePageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXHomePageDetailViewController.m; sourceTree = "<group>"; };
 		5BE8FAF5D2B09CEFA41087D1 /* libPods-VXHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VXHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E523EDA347960C416A193E /* Pods-VXHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VXHomePage.release.xcconfig"; path = "Pods/Target Support Files/Pods-VXHomePage/Pods-VXHomePage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +120,8 @@
 				576F084C1E9B34780067D018 /* VXHomePageServiceProvide.m */,
 				576F08481E9B31B60067D018 /* VXHomePageViewController.h */,
 				576F08491E9B31B60067D018 /* VXHomePageViewController.m */,
+				576F0A9D1E9E1CB80067D018 /* VXHomePageDetailViewController.h */,
+				576F0A9E1E9E1CB80067D018 /* VXHomePageDetailViewController.m */,
 			);
 			path = VXHomePage;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576F0A9F1E9E1CB80067D018 /* VXHomePageDetailViewController.m in Sources */,
 				576F084A1E9B31B60067D018 /* VXHomePageViewController.m in Sources */,
 				576F08131E9B2B330067D018 /* ViewController.m in Sources */,
 				576F084D1E9B34780067D018 /* VXHomePageServiceProvide.m in Sources */,
@@ -407,6 +413,7 @@
 				576F08211E9B2B340067D018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
