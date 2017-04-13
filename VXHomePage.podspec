@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VXHomePage"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "this is  VXHomePage."
 
   # This description is used to generate tags and improve search results.
@@ -136,4 +136,5 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
   s.dependency "VXProtocolManager"
   s.dependency "VXVXHomePageServiceProtocol"
+  s.dependency "VXCommonPageServicePtotocol"
 end
