@@ -3,7 +3,7 @@ source 'https://github.com/voidxin/VXRepositories.git'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'VXHomePage' do
     pod 'VXProtocolManager'
-    pod 'VXVXHomePageServiceProtocol','~>0.0.5’
+    pod 'VXVXHomePageServiceProtocol'
     
-    
+    pod 'VXCommonPage'
 end

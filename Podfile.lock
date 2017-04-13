@@ -1,15 +1,22 @@
 PODS:
+  - VXCommonPage (0.0.3):
+    - VXCommonPageServicePtotocol
+    - VXProtocolManager
+  - VXCommonPageServicePtotocol (0.0.1)
   - VXProtocolManager (0.0.3)
   - VXVXHomePageServiceProtocol (0.0.5)
 
 DEPENDENCIES:
+  - VXCommonPage
   - VXProtocolManager
-  - VXVXHomePageServiceProtocol (~> 0.0.5)
+  - VXVXHomePageServiceProtocol
 
 SPEC CHECKSUMS:
+  VXCommonPage: 6615cc76369a2c59e54e1d94399196ce1c5e4ac1
+  VXCommonPageServicePtotocol: f5fce889829b536620993a6266cc90cf2efbf932
   VXProtocolManager: 23930025df1569999527cd61687052fd3fa5675e
   VXVXHomePageServiceProtocol: 69bfc1263c3015b854fdb1c16b0b1be674958369
 
-PODFILE CHECKSUM: cc6cd175fe7a617d9e9d6c337154139d0878a8cc
+PODFILE CHECKSUM: faa89cd63c0b24d3410c568a7921ca1c37d801d4
 
 COCOAPODS: 1.2.0

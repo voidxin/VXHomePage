@@ -7,7 +7,8 @@
 //
 
 #import "VXHomePageDetailViewController.h"
-
+#import <VXProtocolManager/VXProtocolManager.h>
+#import <VXCommonPageServicePtotocol/VXCommonPageServicePtotocol.h>
 @interface VXHomePageDetailViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @end
@@ -40,6 +41,13 @@
     }
     cell.textLabel.text = @"homepagedetail";
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    id <VXCommonPageServicePtotocol> private = [VXProtocolManager serviceProvideForProtocol:@protocol(VXCommonPageServicePtotocol)];
+    UIViewController *commonVC = [private commonPageViewControllerWith:@"commonPage"];
+    commonVC.title = @"commonPage";
+    [self.navigationController pushViewController:commonVC animated:YES];
 }
 
 

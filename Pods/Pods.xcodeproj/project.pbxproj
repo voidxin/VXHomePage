@@ -7,64 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A5D7802B126CA6025F8AC57D34A8859 /* VXProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 691B5C7CB35B899249183CAC9AE84D0F /* VXProtocolManager-dummy.m */; };
-		65DB1DD9E5AB141AA993C0ED01D796F3 /* VXProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B40390917DA0631525CEB6901FADB3 /* VXProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49B46E79C7692218F4DC3FC85A28197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E40997572B816A10779DCD3D07C9EAE0 /* Pods-VXHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE74E230B24EC4069247604D79353E4 /* Pods-VXHomePage-dummy.m */; };
-		F0985360B1987FD73921FE3C4C89F15E /* VXProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 470ACDFFD2268F2614D4C9BB680F1299 /* VXProtocolManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FA2538237AB372802361537A0E48AE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		06382F156C6A2773E45FA9CBC136A6E6 /* Pods-VXHomePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE74E230B24EC4069247604D79353E4 /* Pods-VXHomePage-dummy.m */; };
+		20BFD8D150F741C3846D707E1849039E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4336D0FB0499783F09F7E4CB8F26FAF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		79FA86D796CCE33FFF6E9C112662034D /* VXProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAD0E99FD7921E9351C92A7C5AD74B1 /* VXProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964CECEF911E2DF310A9119A44B896B7 /* VXCommonPageServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACF8530E9B3C19744810B2933453DF9 /* VXCommonPageServiceProvide.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B461DDD070C7FE0BAD2FD774E95D7744 /* VXCommonPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED22220B2664DFBED6E44AB785636591 /* VXCommonPageViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2123CC8B306A3FA6FA6AECF2B15A641 /* VXProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E8A36E2BCFCFF143495577A4AE7105 /* VXProtocolManager-dummy.m */; };
+		C3315A03CFE30A45D044D9171C08DADE /* VXCommonPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1A857E29DC560FF257BF58D6310922 /* VXCommonPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C419EB76474F5889A4FA5DFF777B3E87 /* VXCommonPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1739FABCBFB52FDB690646EF3D55117D /* VXCommonPage-dummy.m */; };
+		D0D720972BBE5A49578AFE0E777178CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F03992283595C20BDC128DD3A4FCD7FF /* VXProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E4C72AFBB5D15B2EE03186E09F87F5 /* VXProtocolManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF02E12498D78D5696E35ACC8528513B /* VXCommonPageServiceProvide.h in Headers */ = {isa = PBXBuildFile; fileRef = 506AD50B691962E909BF51C92189534C /* VXCommonPageServiceProvide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF30A2FD4AF84295A7B533E239B8D757 /* PBXContainerItemProxy */ = {
+		11C47BE52FEBEBEF4242BF659B6E4DCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D60065054E08D8FB1BB2BCE1EF1D0EBD;
+			remoteGlobalIDString = 33A0EC2C7DE0DE91F8F9E302725A8875;
+			remoteInfo = VXCommonPage;
+		};
+		5300B5CB07C5EBF57A9C21F67FB6385E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BEE56800E4A3D2AD25453ABC1A6791;
+			remoteInfo = VXProtocolManager;
+		};
+		92F65D36BA853F64CE3CBAAC1C023E9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BEE56800E4A3D2AD25453ABC1A6791;
 			remoteInfo = VXProtocolManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20B40390917DA0631525CEB6901FADB3 /* VXProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VXProtocolManager.h; path = VXProtocolManager/VXProtocolManager/VXProtocolManager.h; sourceTree = "<group>"; };
-		2F2DDD0B90F332EC898711FD452884A3 /* VXProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VXProtocolManager-prefix.pch"; sourceTree = "<group>"; };
-		470ACDFFD2268F2614D4C9BB680F1299 /* VXProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VXProtocolManager.m; path = VXProtocolManager/VXProtocolManager/VXProtocolManager.m; sourceTree = "<group>"; };
-		48333CEED6F3085D13C5439208180CCB /* libPods-VXHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VXHomePage.a"; path = "libPods-VXHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FFD831850FED9F9405B4C5F940500C /* VXCommonPageServicePtotocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VXCommonPageServicePtotocol.h; path = VXCommonPageServicePtotocol/VXCommonPageServicePtotocol/VXCommonPageServicePtotocol.h; sourceTree = "<group>"; };
+		1739FABCBFB52FDB690646EF3D55117D /* VXCommonPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VXCommonPage-dummy.m"; sourceTree = "<group>"; };
+		2AAD0E99FD7921E9351C92A7C5AD74B1 /* VXProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VXProtocolManager.h; path = VXProtocolManager/VXProtocolManager/VXProtocolManager.h; sourceTree = "<group>"; };
+		42D9050FAFDDA35D18A9ACA1CC87209C /* VXProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VXProtocolManager.xcconfig; sourceTree = "<group>"; };
 		4EA1D30CC75764A4C3538C2B84939DD3 /* Pods-VXHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VXHomePage.release.xcconfig"; sourceTree = "<group>"; };
+		506AD50B691962E909BF51C92189534C /* VXCommonPageServiceProvide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VXCommonPageServiceProvide.h; path = VXCommonPage/VXCommonPage/VXCommonPageServiceProvide.h; sourceTree = "<group>"; };
 		516D0E96BEA26E16754E565FE6C91DDB /* Pods-VXHomePage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VXHomePage-acknowledgements.plist"; sourceTree = "<group>"; };
 		5ADB7846FCE8C82F3A510899F3914EC0 /* Pods-VXHomePage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VXHomePage-acknowledgements.markdown"; sourceTree = "<group>"; };
-		691B5C7CB35B899249183CAC9AE84D0F /* VXProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VXProtocolManager-dummy.m"; sourceTree = "<group>"; };
 		6AE74E230B24EC4069247604D79353E4 /* Pods-VXHomePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VXHomePage-dummy.m"; sourceTree = "<group>"; };
+		8ACF8530E9B3C19744810B2933453DF9 /* VXCommonPageServiceProvide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VXCommonPageServiceProvide.m; path = VXCommonPage/VXCommonPage/VXCommonPageServiceProvide.m; sourceTree = "<group>"; };
+		8BFFB0E44AABF0E4F24DEE88EE271DEF /* VXCommonPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VXCommonPage-prefix.pch"; sourceTree = "<group>"; };
+		8E1A857E29DC560FF257BF58D6310922 /* VXCommonPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VXCommonPageViewController.h; path = VXCommonPage/VXCommonPage/VXCommonPageViewController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC1110DE6650B8A38B3E9226B31B4D40 /* libVXProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVXProtocolManager.a; path = libVXProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C69553C0C1E8AFC3ED3B71322F44D916 /* VXVXHomePageServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VXVXHomePageServiceProtocol.h; path = VXVXHomePageServiceProtocol/VXVXHomePageServiceProtocol/VXVXHomePageServiceProtocol.h; sourceTree = "<group>"; };
+		93E4C72AFBB5D15B2EE03186E09F87F5 /* VXProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VXProtocolManager.m; path = VXProtocolManager/VXProtocolManager/VXProtocolManager.m; sourceTree = "<group>"; };
+		ADE3A4916C306BC91CECB14A814B246B /* VXCommonPage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VXCommonPage.xcconfig; sourceTree = "<group>"; };
+		B3BB0BBFCD09D2683FD7F20A87016F7E /* libVXCommonPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVXCommonPage.a; path = libVXCommonPage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA28781B8362BAABB212715F5EC143B7 /* libPods-VXHomePage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VXHomePage.a"; path = "libPods-VXHomePage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCBA465784D6EF1842D0F566846B30A0 /* Pods-VXHomePage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VXHomePage-frameworks.sh"; sourceTree = "<group>"; };
 		CCF3C0752913506FA7A3B09A26971E72 /* Pods-VXHomePage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VXHomePage-resources.sh"; sourceTree = "<group>"; };
+		D08980BDC74C0D0A19E4A35F02FD60D8 /* VXVXHomePageServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VXVXHomePageServiceProtocol.h; path = VXVXHomePageServiceProtocol/VXVXHomePageServiceProtocol/VXVXHomePageServiceProtocol.h; sourceTree = "<group>"; };
 		D961E977F5A73F105021DA8821103AD8 /* Pods-VXHomePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VXHomePage.debug.xcconfig"; sourceTree = "<group>"; };
-		E2DD687533134336FED6CE00CBB01370 /* VXProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VXProtocolManager.xcconfig; sourceTree = "<group>"; };
+		ED22220B2664DFBED6E44AB785636591 /* VXCommonPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VXCommonPageViewController.m; path = VXCommonPage/VXCommonPage/VXCommonPageViewController.m; sourceTree = "<group>"; };
+		F446CC6E0AAB539759357B48D9DD1F18 /* VXProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VXProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		F7E8A36E2BCFCFF143495577A4AE7105 /* VXProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VXProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		F95CCE9B7F0EF2F88E06107F3C93DD56 /* libVXProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVXProtocolManager.a; path = libVXProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58A1637E58A7287162340455908383A6 /* Frameworks */ = {
+		01D66439AEE37A4739F58296F857192F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49B46E79C7692218F4DC3FC85A28197 /* Foundation.framework in Frameworks */,
+				D0D720972BBE5A49578AFE0E777178CC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98AD9D2F86B6D9F21C779F45E8A754A2 /* Frameworks */ = {
+		9E41534F7E787A962C893DCD1C652735 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2538237AB372802361537A0E48AE5D /* Foundation.framework in Frameworks */,
+				4336D0FB0499783F09F7E4CB8F26FAF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B92222BF8AB5AB1DAD74CB260874DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BFD8D150F741C3846D707E1849039E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF9FFFA940F471BA155EA4E32A8D24A /* VXProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				2AAD0E99FD7921E9351C92A7C5AD74B1 /* VXProtocolManager.h */,
+				93E4C72AFBB5D15B2EE03186E09F87F5 /* VXProtocolManager.m */,
+				CF31A195D1045B76C94E405F97DAAD14 /* Support Files */,
+			);
+			name = VXProtocolManager;
+			path = VXProtocolManager;
+			sourceTree = "<group>";
+		};
 		25D889A47FA8FE8FA51A7128E5384BEF /* Pods-VXHomePage */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,22 +128,47 @@
 			path = "Target Support Files/Pods-VXHomePage";
 			sourceTree = "<group>";
 		};
-		598A20294C5107A59E2F90B1F337EAE7 /* Products */ = {
+		28A7B99406EF9E169C2FCA913583310D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				48333CEED6F3085D13C5439208180CCB /* libPods-VXHomePage.a */,
-				AC1110DE6650B8A38B3E9226B31B4D40 /* libVXProtocolManager.a */,
+				ADE3A4916C306BC91CECB14A814B246B /* VXCommonPage.xcconfig */,
+				1739FABCBFB52FDB690646EF3D55117D /* VXCommonPage-dummy.m */,
+				8BFFB0E44AABF0E4F24DEE88EE271DEF /* VXCommonPage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VXCommonPage";
+			sourceTree = "<group>";
+		};
+		35434604750E8E41E03A8C9F69F3EDCE /* VXVXHomePageServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				D08980BDC74C0D0A19E4A35F02FD60D8 /* VXVXHomePageServiceProtocol.h */,
+			);
+			name = VXVXHomePageServiceProtocol;
+			path = VXVXHomePageServiceProtocol;
+			sourceTree = "<group>";
+		};
+		49ACD4EB6E4B3421282EAB79814FE5DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA28781B8362BAABB212715F5EC143B7 /* libPods-VXHomePage.a */,
+				B3BB0BBFCD09D2683FD7F20A87016F7E /* libVXCommonPage.a */,
+				F95CCE9B7F0EF2F88E06107F3C93DD56 /* libVXProtocolManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70FB9D2EDAA66DE2966CA0EDEE39451A /* VXVXHomePageServiceProtocol */ = {
+		4E4DE0E47649DD8A3E0CF8B8723DCEBB /* VXCommonPage */ = {
 			isa = PBXGroup;
 			children = (
-				C69553C0C1E8AFC3ED3B71322F44D916 /* VXVXHomePageServiceProtocol.h */,
+				506AD50B691962E909BF51C92189534C /* VXCommonPageServiceProvide.h */,
+				8ACF8530E9B3C19744810B2933453DF9 /* VXCommonPageServiceProvide.m */,
+				8E1A857E29DC560FF257BF58D6310922 /* VXCommonPageViewController.h */,
+				ED22220B2664DFBED6E44AB785636591 /* VXCommonPageViewController.m */,
+				28A7B99406EF9E169C2FCA913583310D /* Support Files */,
 			);
-			name = VXVXHomePageServiceProtocol;
-			path = VXVXHomePageServiceProtocol;
+			name = VXCommonPage;
+			path = VXCommonPage;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -111,19 +184,30 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7E36F595E5C4D4F33C66CDF9E98DE468 /* Pods */,
-				598A20294C5107A59E2F90B1F337EAE7 /* Products */,
+				86EA02513B7ABC095EDFF97418C108AD /* Pods */,
+				49ACD4EB6E4B3421282EAB79814FE5DB /* Products */,
 				C6BC964DECDE34D8BD21249EAFE2DF96 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E36F595E5C4D4F33C66CDF9E98DE468 /* Pods */ = {
+		86EA02513B7ABC095EDFF97418C108AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC49EBD3C1B42D03B524CD1299C333B7 /* VXProtocolManager */,
-				70FB9D2EDAA66DE2966CA0EDEE39451A /* VXVXHomePageServiceProtocol */,
+				4E4DE0E47649DD8A3E0CF8B8723DCEBB /* VXCommonPage */,
+				8D5BE6C5E16E9C19B2D8ED564CD56C99 /* VXCommonPageServicePtotocol */,
+				0DF9FFFA940F471BA155EA4E32A8D24A /* VXProtocolManager */,
+				35434604750E8E41E03A8C9F69F3EDCE /* VXVXHomePageServiceProtocol */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D5BE6C5E16E9C19B2D8ED564CD56C99 /* VXCommonPageServicePtotocol */ = {
+			isa = PBXGroup;
+			children = (
+				00FFD831850FED9F9405B4C5F940500C /* VXCommonPageServicePtotocol.h */,
+			);
+			name = VXCommonPageServicePtotocol;
+			path = VXCommonPageServicePtotocol;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -142,23 +226,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DC49EBD3C1B42D03B524CD1299C333B7 /* VXProtocolManager */ = {
+		CF31A195D1045B76C94E405F97DAAD14 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				20B40390917DA0631525CEB6901FADB3 /* VXProtocolManager.h */,
-				470ACDFFD2268F2614D4C9BB680F1299 /* VXProtocolManager.m */,
-				F214693B43A59C5E788E82EA01868E63 /* Support Files */,
-			);
-			name = VXProtocolManager;
-			path = VXProtocolManager;
-			sourceTree = "<group>";
-		};
-		F214693B43A59C5E788E82EA01868E63 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E2DD687533134336FED6CE00CBB01370 /* VXProtocolManager.xcconfig */,
-				691B5C7CB35B899249183CAC9AE84D0F /* VXProtocolManager-dummy.m */,
-				2F2DDD0B90F332EC898711FD452884A3 /* VXProtocolManager-prefix.pch */,
+				42D9050FAFDDA35D18A9ACA1CC87209C /* VXProtocolManager.xcconfig */,
+				F7E8A36E2BCFCFF143495577A4AE7105 /* VXProtocolManager-dummy.m */,
+				F446CC6E0AAB539759357B48D9DD1F18 /* VXProtocolManager-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/VXProtocolManager";
@@ -167,41 +240,69 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B52F30A43315F6BEF592502F597A2409 /* Headers */ = {
+		9E55448E5987CC938634110D3A13B267 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DB1DD9E5AB141AA993C0ED01D796F3 /* VXProtocolManager.h in Headers */,
+				79FA86D796CCE33FFF6E9C112662034D /* VXProtocolManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41292D6A247AB4DC4416438D2E4E04E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF02E12498D78D5696E35ACC8528513B /* VXCommonPageServiceProvide.h in Headers */,
+				C3315A03CFE30A45D044D9171C08DADE /* VXCommonPageViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A37F942D17A6201858BE2BE27054802C /* Pods-VXHomePage */ = {
+		33A0EC2C7DE0DE91F8F9E302725A8875 /* VXCommonPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FFBDA19C52BF189A6AA992D46A23609 /* Build configuration list for PBXNativeTarget "Pods-VXHomePage" */;
+			buildConfigurationList = 538D07FD6F37F156600B03FE0724CDCA /* Build configuration list for PBXNativeTarget "VXCommonPage" */;
 			buildPhases = (
-				45BAC3094AC86D688BD6350B8693820F /* Sources */,
-				98AD9D2F86B6D9F21C779F45E8A754A2 /* Frameworks */,
+				A9FFA05F3C9D632BA2E443C214610771 /* Sources */,
+				01D66439AEE37A4739F58296F857192F /* Frameworks */,
+				F41292D6A247AB4DC4416438D2E4E04E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A4575AB2D32C5D768ACBFCFCD93D680D /* PBXTargetDependency */,
+				0A2C04D8C519C28DB6092918EFA79B54 /* PBXTargetDependency */,
+			);
+			name = VXCommonPage;
+			productName = VXCommonPage;
+			productReference = B3BB0BBFCD09D2683FD7F20A87016F7E /* libVXCommonPage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1A1FF02B3B8608A77F0DB46AE61A674 /* Pods-VXHomePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0672DCCFA9E45E0790D3A876C49294E6 /* Build configuration list for PBXNativeTarget "Pods-VXHomePage" */;
+			buildPhases = (
+				DCBF14106DE2903E23A43CDBDF31524E /* Sources */,
+				9E41534F7E787A962C893DCD1C652735 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03BDA3360C2E674085B0FFD1A7FDA1A3 /* PBXTargetDependency */,
+				89C06742830C3FB9D600B7C48D0249F3 /* PBXTargetDependency */,
 			);
 			name = "Pods-VXHomePage";
 			productName = "Pods-VXHomePage";
-			productReference = 48333CEED6F3085D13C5439208180CCB /* libPods-VXHomePage.a */;
+			productReference = BA28781B8362BAABB212715F5EC143B7 /* libPods-VXHomePage.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D60065054E08D8FB1BB2BCE1EF1D0EBD /* VXProtocolManager */ = {
+		E4BEE56800E4A3D2AD25453ABC1A6791 /* VXProtocolManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6DA7AC28F05CEEA89A9CAA7D85E0F41 /* Build configuration list for PBXNativeTarget "VXProtocolManager" */;
+			buildConfigurationList = 0C8202FF33FA266A3ADA8FCFD8687DA0 /* Build configuration list for PBXNativeTarget "VXProtocolManager" */;
 			buildPhases = (
-				E1E1D3C9E130E79D51A6DBB4EBE75382 /* Sources */,
-				58A1637E58A7287162340455908383A6 /* Frameworks */,
-				B52F30A43315F6BEF592502F597A2409 /* Headers */,
+				52219C3B2E216230153215D8209BC034 /* Sources */,
+				D4B92222BF8AB5AB1DAD74CB260874DB /* Frameworks */,
+				9E55448E5987CC938634110D3A13B267 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -209,7 +310,7 @@
 			);
 			name = VXProtocolManager;
 			productName = VXProtocolManager;
-			productReference = AC1110DE6650B8A38B3E9226B31B4D40 /* libVXProtocolManager.a */;
+			productReference = F95CCE9B7F0EF2F88E06107F3C93DD56 /* libVXProtocolManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -229,42 +330,65 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 598A20294C5107A59E2F90B1F337EAE7 /* Products */;
+			productRefGroup = 49ACD4EB6E4B3421282EAB79814FE5DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A37F942D17A6201858BE2BE27054802C /* Pods-VXHomePage */,
-				D60065054E08D8FB1BB2BCE1EF1D0EBD /* VXProtocolManager */,
+				D1A1FF02B3B8608A77F0DB46AE61A674 /* Pods-VXHomePage */,
+				33A0EC2C7DE0DE91F8F9E302725A8875 /* VXCommonPage */,
+				E4BEE56800E4A3D2AD25453ABC1A6791 /* VXProtocolManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45BAC3094AC86D688BD6350B8693820F /* Sources */ = {
+		52219C3B2E216230153215D8209BC034 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40997572B816A10779DCD3D07C9EAE0 /* Pods-VXHomePage-dummy.m in Sources */,
+				C2123CC8B306A3FA6FA6AECF2B15A641 /* VXProtocolManager-dummy.m in Sources */,
+				F03992283595C20BDC128DD3A4FCD7FF /* VXProtocolManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1E1D3C9E130E79D51A6DBB4EBE75382 /* Sources */ = {
+		A9FFA05F3C9D632BA2E443C214610771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A5D7802B126CA6025F8AC57D34A8859 /* VXProtocolManager-dummy.m in Sources */,
-				F0985360B1987FD73921FE3C4C89F15E /* VXProtocolManager.m in Sources */,
+				C419EB76474F5889A4FA5DFF777B3E87 /* VXCommonPage-dummy.m in Sources */,
+				964CECEF911E2DF310A9119A44B896B7 /* VXCommonPageServiceProvide.m in Sources */,
+				B461DDD070C7FE0BAD2FD774E95D7744 /* VXCommonPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBF14106DE2903E23A43CDBDF31524E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06382F156C6A2773E45FA9CBC136A6E6 /* Pods-VXHomePage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A4575AB2D32C5D768ACBFCFCD93D680D /* PBXTargetDependency */ = {
+		03BDA3360C2E674085B0FFD1A7FDA1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VXCommonPage;
+			target = 33A0EC2C7DE0DE91F8F9E302725A8875 /* VXCommonPage */;
+			targetProxy = 11C47BE52FEBEBEF4242BF659B6E4DCA /* PBXContainerItemProxy */;
+		};
+		0A2C04D8C519C28DB6092918EFA79B54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VXProtocolManager;
-			target = D60065054E08D8FB1BB2BCE1EF1D0EBD /* VXProtocolManager */;
-			targetProxy = CF30A2FD4AF84295A7B533E239B8D757 /* PBXContainerItemProxy */;
+			target = E4BEE56800E4A3D2AD25453ABC1A6791 /* VXProtocolManager */;
+			targetProxy = 5300B5CB07C5EBF57A9C21F67FB6385E /* PBXContainerItemProxy */;
+		};
+		89C06742830C3FB9D600B7C48D0249F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VXProtocolManager;
+			target = E4BEE56800E4A3D2AD25453ABC1A6791 /* VXProtocolManager */;
+			targetProxy = 92F65D36BA853F64CE3CBAAC1C023E9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -313,52 +437,6 @@
 			};
 			name = Debug;
 		};
-		2A506273D9407ACDA3A4320C2FE631AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D961E977F5A73F105021DA8821103AD8 /* Pods-VXHomePage.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		2E27EB113E3CFE114A71E1D83CDECA1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2DD687533134336FED6CE00CBB01370 /* VXProtocolManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VXProtocolManager/VXProtocolManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -399,7 +477,99 @@
 			};
 			name = Release;
 		};
-		6B0DF4049C32D1E3BF01FE6C405C8058 /* Release */ = {
+		5F2A7CFAF134DD37FA37527199B3A478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE3A4916C306BC91CECB14A814B246B /* VXCommonPage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VXCommonPage/VXCommonPage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8027367C72F7FC28A84A0B200EC949EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D961E977F5A73F105021DA8821103AD8 /* Pods-VXHomePage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		926ABCCC350725B300EB7413AAD8F409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D9050FAFDDA35D18A9ACA1CC87209C /* VXProtocolManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VXProtocolManager/VXProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C54A76E648375DA92F13B1D20C53BE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D9050FAFDDA35D18A9ACA1CC87209C /* VXProtocolManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VXProtocolManager/VXProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DCCC090D023882C81F35D8A7240997BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4EA1D30CC75764A4C3538C2B84939DD3 /* Pods-VXHomePage.release.xcconfig */;
 			buildSettings = {
@@ -422,9 +592,9 @@
 			};
 			name = Release;
 		};
-		D75DEC3E2AC7FE18B3592A7FE7EB6E78 /* Debug */ = {
+		E35B367BE101834E03E6A46385D281E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2DD687533134336FED6CE00CBB01370 /* VXProtocolManager.xcconfig */;
+			baseConfigurationReference = ADE3A4916C306BC91CECB14A814B246B /* VXCommonPage.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -432,7 +602,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VXProtocolManager/VXProtocolManager-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/VXCommonPage/VXCommonPage-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -448,6 +618,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0672DCCFA9E45E0790D3A876C49294E6 /* Build configuration list for PBXNativeTarget "Pods-VXHomePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027367C72F7FC28A84A0B200EC949EE /* Debug */,
+				DCCC090D023882C81F35D8A7240997BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8202FF33FA266A3ADA8FCFD8687DA0 /* Build configuration list for PBXNativeTarget "VXProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54A76E648375DA92F13B1D20C53BE49 /* Debug */,
+				926ABCCC350725B300EB7413AAD8F409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -457,20 +645,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FFBDA19C52BF189A6AA992D46A23609 /* Build configuration list for PBXNativeTarget "Pods-VXHomePage" */ = {
+		538D07FD6F37F156600B03FE0724CDCA /* Build configuration list for PBXNativeTarget "VXCommonPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A506273D9407ACDA3A4320C2FE631AF /* Debug */,
-				6B0DF4049C32D1E3BF01FE6C405C8058 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6DA7AC28F05CEEA89A9CAA7D85E0F41 /* Build configuration list for PBXNativeTarget "VXProtocolManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D75DEC3E2AC7FE18B3592A7FE7EB6E78 /* Debug */,
-				2E27EB113E3CFE114A71E1D83CDECA1E /* Release */,
+				E35B367BE101834E03E6A46385D281E6 /* Debug */,
+				5F2A7CFAF134DD37FA37527199B3A478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
